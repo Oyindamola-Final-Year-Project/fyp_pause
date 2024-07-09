@@ -1,0 +1,170 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./styles/page.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+.page_frameChild__e0UjT {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0%;
+    left: 0%;
+    border-bottom: 1px solid #cbd5e2;
+    box-sizing: border-box;
+    height: 64px;
+}
+.page_pause__vYZQn {
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 42px;
+    line-height: 20px;
+}
+.page_menuIcon__bhhZz {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 37px;
+    width: 24px;
+    height: 24px;
+}
+.page_rectangleParent__9C9VN {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0%;
+    left: 0%;
+    height: 64px;
+    font-size: 24px;
+}
+.page_frameItem__vXDms {
+    outline: none;
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    top: calc(50% - 30px);
+    right: 0px;
+    left: 0px;
+    border-radius: 15px;
+    border: 1px solid #cbd5e2;
+    box-sizing: border-box;
+    height: 60px;
+}
+.page_startAConversation__a7r3m {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 20px;
+    line-height: 24px;
+    display: inline-block;
+    width: 292px;
+    height: 29px;
+}
+.page_arrowRightIcon__qNCY3 {
+    position: absolute;
+    top: calc(50% - 9px);
+    right: 24px;
+    width: 24px;
+    height: 24px;
+}
+.page_rectangleGroup__hdyPb {
+    position: absolute;
+    width: 100%;
+    right: 0%;
+    bottom: 0px;
+    left: 0%;
+    height: 60px;
+}
+.page_chatBox__xwab_ {
+    position: absolute;
+    height: 7.21%;
+    width: calc(100% - 196px);
+    top: 86.66%;
+    right: 98px;
+    bottom: 6.13%;
+    left: 98px;
+    overflow: hidden;
+    text-align: left;
+    color: #40566d;
+}
+.page_orShareYour__NBirM {
+    position: absolute;
+    top: 684px;
+    left: 98px;
+    line-height: 24px;
+    color: #000;
+}
+.page_really__55pXT {
+    color: #930b95;
+}
+.page_howAreYouContainer__qGMCQ {
+    position: absolute;
+    top: 113px;
+    left: 98px;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #000;
+}
+.page_selectFromThese__0PKDe {
+    position: absolute;
+    top: 187px;
+    left: 98px;
+    line-height: 24px;
+    color: #000;
+}
+.page_feelingABit__jIY4O {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+}
+.page_feelingABitAnxiousWrapper__lJD8n {
+    position: absolute;
+    top: 221px;
+    left: 98px;
+    border-radius: 10px;
+    background-color: rgba(147, 11, 149, 0.14);
+    border: 1px solid #930b95;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 15px;
+    font-size: 14px;
+}
+.page_totallyStressedOutWrapper__h5taE {
+    position: absolute;
+    top: 269px;
+    left: 98px;
+    border-radius: 10px;
+    background-color: rgba(147, 11, 149, 0.14);
+    border: 1px solid #930b95;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 15px;
+    font-size: 14px;
+}
+.page_aBitSadWrapper__dOrCG {
+    position: absolute;
+    top: 317px;
+    left: 98px;
+    border-radius: 10px;
+    background-color: rgba(147, 11, 149, 0.14);
+    border: 1px solid #930b95;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 14px;
+    font-size: 14px;
+}
+.page_interface__BtEX2 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 832px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    color: #930b95;
+    font-family: Inter;
+}
+
+
