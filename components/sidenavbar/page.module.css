@@ -1,0 +1,39 @@
+.hotline {
+    align-self: stretch;
+    position: relative;
+}
+.pages {
+    position: absolute;
+    top: 82px;
+    left: 19px;
+    width: 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.sidenav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    border-right: 1px solid #cbd5e2;
+    box-sizing: border-box;
+    width: 187px;
+    height: 832px;
+    overflow: hidden;
+}
+.sidenavbar {
+    width: 187px;
+    position: relative;
+    height: 832px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    text-align: left;
+    font-size: 16px;
+    color: #40566d;
+    font-family: Inter;
+}
+

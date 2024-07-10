@@ -1,89 +1,38 @@
 "use client";
 
-import { useState } from "react";
-import type { NextPage } from "next";
-import axios from "axios";
+import type { NextPage } from 'next';
+import Navbar from '@/components/navbar/page';
 import styles from "../styles/page.module.css";
-import Image from "next/image";
-import Convers from "./chat-history/page";
+import Link from 'next/link';
 
-const Interface: NextPage = () => {
-  const [response, setResponse] = useState<string>("");
-  const [value, setValue] = useState<string>("");
-
-  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => setValue(e.target.value);
-
-  const handleSubmit = async () => {
-    const res = (await axios.post("/chat", { question: value })).data.choices[0].message.content;
-    setResponse(res);
-  };
-
-  const handleButtonClick = async (text: string) => {
-    setValue(text);
-    const res = (await axios.post("/chat", { question: text })).data.choices[0].message.content;
-    setResponse(res);
-  };
-
+const Introduction: NextPage = () => {
   return (
-    <div className={styles.interface}>
-      <div className={styles.rectangleParent}>
-        <div className={styles.frameChild} />
-        <b className={styles.pause}>PAUSE.</b>
-        <button>
-          <Image
-            className={styles.menuIcon}
-            alt=""
-            src="/images/menu.svg"
-            width={10}
-            height={10}
-          />
-        </button>
-      </div>
-      <div className={styles.chatBox}>
-        <div className={styles.rectangleGroup}>
-          <div className={styles.frameItem} />
-          <input
-            type="text"
-            className={styles.frameItem}
-            value={value}
-            onChange={onChange}
-          />
-          <button onClick={handleSubmit}>
-            <Image
-              className={styles.arrowRightIcon}
-              alt=""
-              src="/images/arrow-right.svg"
-              width={10}
-              height={10}
-            />
-          </button>
-        </div>      </div>
-      <div className={styles.orShareYour}>
-        ... or share your thoughts below.
-      </div>
-      <div className={styles.howAreYouContainer}>
-        <span>{`How are you, `}</span>
-        <span className={styles.really}>really</span>
-        <span>?</span>
-      </div>
-      <div className={styles.selectFromThese}>Select from these options...</div>
-      <button onClick={() => handleButtonClick("feeling a bit anxious")}>
-        <div className={styles.feelingABitAnxiousWrapper}>
-          <div className={styles.feelingABit}>feeling a bit anxious</div>
+    <>
+      <div className={styles.introductionV2}>
+        <div className={styles.introductionV2Child} />
+        <Navbar />
+        <div className={styles.welcomeToTheHotlineParent}>
+          <div className={styles.welcomeToTheContainer}>
+            <span className={styles.welcomeToThe}>{`Welcome to the `}</span>
+            <span className={styles.hotline}>Hotline</span>
+            <span className={styles.span}>.</span>
+          </div>
+          <div className={styles.whetherYoureFeeling}>Whether you're feeling anxious, need coping strategies, or simply want to talk, our chatbot is here to help 24/7. Start a conversation anytime, and take a step towards better mental well-being.</div>
+          <div className={styles.button}>
+            <div className={styles.root}>
+              <div className={styles.wrapper}>
+                <div className={styles.label}>
+                  <Link href="/chat">
+                    <button className={styles.labeldesktopDontHide}>Start Chat</button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </button>
-      <button onClick={() => handleButtonClick("totally stressed out!")}>
-        <div className={styles.totallyStressedOutWrapper}>
-          <div className={styles.feelingABit}>totally stressed out!</div>
-        </div>
-      </button>
-      <button onClick={() => handleButtonClick("a bit sad")}>
-        <div className={styles.aBitSadWrapper}>
-          <div className={styles.feelingABit}>a bit sad</div>
-        </div>
-      </button>
-    </div>
+      </div>
+    </>
   );
 };
 
-export default Interface;
+export default Introduction;

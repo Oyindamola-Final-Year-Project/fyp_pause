@@ -1,166 +1,89 @@
-.frameChild {
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    right: 0%;
-    left: 0%;
-    border-bottom: 1px solid #cbd5e2;
-    box-sizing: border-box;
-    height: 64px;
-}
-.pause {
-    position: absolute;
-    top: calc(50% - 10px);
-    right: 42px;
-    line-height: 20px;
-}
-.menuIcon {
-    position: absolute;
-    top: calc(50% - 12px);
-    left: 37px;
-    width: 24px;
-    height: 24px;
-}
-.rectangleParent {
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    right: 0%;
-    left: 0%;
-    height: 64px;
-    font-size: 24px;
-}
-.frameItem {
-    outline: none;
-    position: absolute;
-    padding: 20px;
-    width: 100%;
-    top: calc(50% - 30px);
-    right: 0px;
-    left: 0px;
-    border-radius: 15px;
-    border: 1px solid #cbd5e2;
-    box-sizing: border-box;
-    height: 60px;
-}
-.startAConversation {
-    position: absolute;
-    top: calc(50% - 12px);
-    left: 20px;
-    line-height: 24px;
-    display: inline-block;
-    width: 292px;
-    height: 29px;
-}
-.arrowRightIcon {
-    position: absolute;
-    top: calc(50% - 9px);
-    right: 24px;
-    width: 24px;
-    height: 24px;
-}
-.rectangleGroup {
-    position: absolute;
-    width: 100%;
-    right: 0%;
-    bottom: 0px;
-    left: 0%;
-    height: 60px;
-}
-.chatBox {
-    position: absolute;
-    height: 7.21%;
-    width: calc(100% - 196px);
-    top: 86.66%;
-    right: 98px;
-    bottom: 6.13%;
-    left: 98px;
-    overflow: hidden;
-    text-align: left;
-    color: #40566d;
-}
-.orShareYour {
-    position: absolute;
-    top: 684px;
-    left: 98px;
-    line-height: 24px;
+.welcomeToThe {
     color: #000;
 }
-.really {
-    color: #930b95;
+.hotline {
+    background: linear-gradient(90deg, #005ae1 62.63%, #2d00e1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.howAreYouContainer {
-    position: absolute;
-    top: 113px;
-    left: 98px;
-    font-size: 48px;
+.span {
+    letter-spacing: 1em;
+}
+.welcomeToTheContainer {
+    align-self: stretch;
+    position: relative;
     line-height: 64px;
     font-weight: 600;
-    color: #000;
 }
-.selectFromThese {
-    position: absolute;
-    top: 187px;
-    left: 98px;
-    line-height: 24px;
-    color: #000;
-}
-.feelingABit {
+.whetherYoureFeeling {
+    align-self: stretch;
     position: relative;
-    line-height: 20px;
-    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #40566d;
 }
-.feelingABitAnxiousWrapper {
-    position: absolute;
-    top: 221px;
-    left: 98px;
-    border-radius: 10px;
-    background-color: rgba(147, 11, 149, 0.14);
-    border: 1px solid #930b95;
+.labeldesktopDontHide {
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+}
+.label {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 9px 15px;
-    font-size: 14px;
 }
-.totallyStressedOutWrapper {
-    position: absolute;
-    top: 269px;
-    left: 98px;
-    border-radius: 10px;
-    background-color: rgba(147, 11, 149, 0.14);
-    border: 1px solid #930b95;
+.wrapper {
+    flex: 1;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #005ae1;
+    box-sizing: border-box;
+    height: 48px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 9px 15px;
-    font-size: 14px;
+    padding: 0px 20px;
 }
-.aBitSadWrapper {
-    position: absolute;
-    top: 317px;
-    left: 98px;
-    border-radius: 10px;
-    background-color: rgba(147, 11, 149, 0.14);
-    border: 1px solid #930b95;
+.root {
+    width: 221px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 9px 14px;
-    font-size: 14px;
 }
-.interface {
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #005ae1;
+}
+.welcomeToTheHotlineParent {
+    position: absolute;
+    width: 72.33%;
+    top: calc(50% - 146px);
+    right: 14.06%;
+    left: 13.61%;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.introductionV2 {
     width: 100%;
     position: relative;
-    background-color: #fff;
+    background: linear-gradient(180deg, #fff 32.44%, #e3eeff 73%, #b1cffc);
     height: 832px;
     overflow: hidden;
     text-align: center;
-    font-size: 16px;
-    color: #930b95;
+    font-size: 64px;
+    color: #000;
     font-family: Inter;
 }
 

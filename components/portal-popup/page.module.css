@@ -1,0 +1,11 @@
+.portalPopupOverlay {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 187px; /* Adjust the width as needed */
+    height: 832px; /* Adjust the height as needed */
+    background-color: white; /* Adjust the background color as needed */
+    padding: 0px; /* Adjust the padding as needed */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a box shadow for a nice effect */
+}
