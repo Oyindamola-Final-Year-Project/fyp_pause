@@ -1,0 +1,93 @@
+.label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.textboxChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0px;
+  bottom: 0%;
+  left: 0px;
+  border-radius: 15px;
+  border: 1px solid #cbd5e2;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.arrowRightIcon {
+  position: absolute;
+  top: calc(50% - 9px);
+  right: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.textbox {
+  position: absolute;
+  height: 7.21%;
+  width: calc(100% - 196px);
+  top: 86.66%;
+  right: 98px;
+  bottom: 6.13%;
+  left: 98px;
+  padding: 20px;
+}
+
+.request {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  width: 46.6%;
+  top: 121px;
+  right: 43.47%;
+  left: 9.93%;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  height: 38px;
+  background-color: #ffffff;
+  min-width: 200px;
+  max-width: 671px;
+  padding: 10px;
+  color: rgb(54, 54, 54);
+
+}
+
+.response {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 197px;
+  right: 6.81%;
+  left: 46.6%;
+  border-radius: 10px;
+  background-color: #000000;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 671px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  overflow: hidden; 
+}
+
+.chat {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #40566d;
+  font-family: Inter;
+}

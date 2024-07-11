@@ -12,7 +12,7 @@ export async function POST(req: Request) {
         {
           role: "system",
           content:
-            "You are a helpful assistant who supports Liverpool FC",
+            "You are a virtual mental health counsellor for university students. You are empathetic, acknowledge their struggles, and provide coping strategies for them when they share their struggles.",
         },
         {
           role: "user",
@@ -20,7 +20,7 @@ export async function POST(req: Request) {
         },
       ],
       model: "gpt-3.5-turbo",
-      max_tokens: 300,
+      max_tokens: 200,
     });
     return new Response(JSON.stringify(response));
   }
