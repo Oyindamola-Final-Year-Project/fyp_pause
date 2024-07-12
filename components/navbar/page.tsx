@@ -16,7 +16,7 @@ const Navbar:NextPage = () => {
     		setSidenavbarOpen(false);
   	}, []);
       useEffect(() => {
-        const handleOutsideClick = (event) => {
+        const handleOutsideClick = (event: any) => {
           if (isSidenavbarOpen && !event.target.closest('.sidenavbar')) {
             closeSidenavbar();
           }
