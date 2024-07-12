@@ -56,7 +56,7 @@
     top: 26px;
     left: 30px;
     border-radius: 50%;
-    background: linear-gradient(180deg, #ff007a, #855aff);
+    background: grey;
     height: 75px;
     z-index: 4;
 }
@@ -114,10 +114,15 @@
     top: 0px;
     left: 0px;
     border-radius: 20px;
-    background-color: #855aff;
+    background-color: #656565;
     width: 120px;
     height: 29px;
     }
+
+    .buttonChild:hover {
+        background-color: #a1006c;
+    }
+
     .connect {
     position: absolute;
     top: 9.11px;

@@ -17,7 +17,10 @@
   border: 1px solid #cbd5e2;
   box-sizing: border-box;
   padding: 20px;
+  outline: none;
 }
+
+  .textboxChild:focus{ outline-color: #A75000 }
 
 .arrowRightIcon {
   position: absolute;

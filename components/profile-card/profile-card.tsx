@@ -8,7 +8,7 @@ const Card:NextPage = () => {
       			<div className={styles.box} />
             <div className={styles.button}>
             <div className={styles.buttonChild} />
-            <div className={styles.connect}>Connect</div>
+            <button className={styles.connect}>Connect</button>
             </div>
       			<div className={styles.fullName}>Dr. Jane Doe</div>
       			<div className={styles.city}>Ajah</div>
