@@ -13,7 +13,8 @@
   right: 0px;
   bottom: 0%;
   left: 0px;
-  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
   border: 1px solid #cbd5e2;
   box-sizing: border-box;
   padding: 20px;
@@ -33,11 +34,11 @@
 .textbox {
   position: absolute;
   height: 7.21%;
-  width: calc(100% - 196px);
+  width: calc(100% - 212px);
   top: 86.66%;
   right: 98px;
   bottom: 6.13%;
-  left: 98px;
+  left: 122px;
   padding: 20px;
 }
 
@@ -47,46 +48,48 @@
   justify-content: flex-start;
   align-items: center;
   position: absolute;
-  width: 46.6%;
+  width: 50%;
   top: 121px;
   right: 43.47%;
   left: 9.93%;
-  border-radius: 10px;
-  border: 1px solid #000000;
+  border-radius: 20px;
   box-sizing: border-box;
   height: 38px;
-  background-color: #ffffff;
-  min-width: 200px;
-  max-width: 671px;
-  padding: 10px;
-  color: rgb(54, 54, 54);
-
+  background-color: rgb(229, 229, 229);
+  min-width: 140px;
+  max-width: 400px;
+  padding: 10px 10px 30px 20px;
+  color: rgb(64, 64, 64);
+  
 }
 
 .response {
   display: flex;
   flex-wrap: wrap;
+  text-align: right;
   justify-content: flex-start;
   align-items: center;
+  line-height: 32px;
   position: absolute;
   top: 197px;
   right: 6.81%;
   left: 46.6%;
-  border-radius: 10px;
-  background-color: #000000;
-  border: 1px solid #000000;
+  border-width: 1.5px;
+  border-color: rgb(255, 255, 255) rgb(229, 229, 229) rgb(255, 255, 255) rgb(255, 255, 255);  border-radius: 0px;
+  background-color: rgb(0 0 0 / 0%);
   box-sizing: border-box;
   min-width: 200px;
   max-width: 671px;
-  padding: 10px;
-  color: rgb(255, 255, 255);
+  padding: 0px 20px 20px 10px;
+  color: rgb(64, 64, 64);
   overflow: hidden; 
 }
 
 .chat {
   width: 100%;
   position: relative;
-  background-color: #fff;
+  background-color: #ffffff;
+opacity: 1;
   height: 832px;
   overflow: hidden;
   text-align: left;

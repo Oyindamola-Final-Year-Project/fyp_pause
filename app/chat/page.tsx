@@ -9,7 +9,7 @@ import Image from "next/image";
 const App = () => {
   const [response, setResponse] = useState<string>("");
   const [value, setValue] = useState<string>("");
-  const [previousQuestion, setPreviousQuestion] = useState<string>(""); // new state variable
+  const [previousQuestion, setPreviousQuestion] = useState<string>(" "); // new state variable
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) =>
     setValue(e.target.value);
