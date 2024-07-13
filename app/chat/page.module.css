@@ -32,7 +32,7 @@
 }
 
 .textbox {
-  position: absolute;
+  position: fixed;
   height: 7.21%;
   width: calc(100% - 212px);
   top: 86.66%;
@@ -43,44 +43,46 @@
 }
 
 .request {
+  top: 100%;
   display: flex;
+  left: 9.93%;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  position: absolute;
+  position: relative; /* Use relative positioning */
   width: 50%;
-  top: 121px;
-  right: 43.47%;
-  left: 9.93%;
+  margin-top: 50px;
+  margin-bottom: 20px; /* Add margin to separate elements */
   border-radius: 20px;
   box-sizing: border-box;
-  height: 38px;
-  background-color: rgb(229, 229, 229);
+  height: auto; /* Adjust height to fit content */
+  background-color: rgb(0, 96, 175);
   min-width: 140px;
   max-width: 400px;
-  padding: 10px 10px 30px 20px;
-  color: rgb(64, 64, 64);
+  padding: 10px 20px; /* Simplified padding */
+  color: rgb(254, 254, 254);
+  overflow: hidden; 
   
 }
 
+
 .response {
   display: flex;
+  right: 6.81%;
+  left: 46.6%;
   flex-wrap: wrap;
   text-align: right;
   justify-content: flex-start;
   align-items: center;
   line-height: 32px;
-  position: absolute;
-  top: 197px;
-  right: 6.81%;
-  left: 46.6%;
-  border-width: 1.5px;
-  border-color: rgb(255, 255, 255) rgb(229, 229, 229) rgb(255, 255, 255) rgb(255, 255, 255);  border-radius: 0px;
-  background-color: rgb(0 0 0 / 0%);
+  position: relative; /* Use relative positioning */
+  margin-bottom: 20px; /* Add margin to separate elements */
+  border-radius: 20px; /* Adjusted border-radius for consistency */
+  background-color: rgba(0, 0, 0, 0.05); /* Slightly darker background for visibility */
   box-sizing: border-box;
   min-width: 200px;
   max-width: 671px;
-  padding: 0px 20px 20px 10px;
+  padding: 10px 20px; /* Simplified padding */
   color: rgb(64, 64, 64);
   overflow: hidden; 
 }
@@ -96,4 +98,5 @@ opacity: 1;
   font-size: 16px;
   color: #40566d;
   font-family: Inter;
+  overflow-y: auto; /* Allow vertical scrolling if content overflows */
 }

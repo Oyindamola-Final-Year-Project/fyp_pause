@@ -8,6 +8,16 @@
     height: 64px;
     background-color: white;
 }
+
+.pauLogo1Icon {
+    position: absolute;
+    top: 6px;
+    left: 664px;
+    width: 113px;
+    height: 52.8px;
+    object-fit: cover;
+    }
+    
 .menuIcon {
     position: absolute;
     top: calc(50% - 12px);
@@ -28,7 +38,7 @@
     height: 64px;
     text-align: center;
     font-size: 24px;
-    color: #000000;
+    color: #0043A7;
     font-family: Inter;
 }
 

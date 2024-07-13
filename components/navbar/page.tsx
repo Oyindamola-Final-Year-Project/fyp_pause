@@ -33,17 +33,13 @@ const Navbar:NextPage = () => {
     		<div className={styles.navbar}>
       			<div className={styles.navbarChild} />
                 <Image className={styles.menuIcon} alt="" src="/images/menu.svg" onClick={openSidenavbar} width='10' height='10' />
+				<Image className={styles.pauLogo1Icon} alt="" src="/images/pau_logo.png" width='100' height='20' />
       			<b className={styles.pause}>PAUSE</b>
     		</div>
     		{isSidenavbarOpen && (
       			<PortalPopup
         				overlayColor="rgba(255, 255, 255, 1)"
         				placement="Centered"
-        				
-        				
-        				
-        				
-        				
         				onOutsideClick={closeSidenavbar}
         				>
         				<Sidenavbar onClose={closeSidenavbar} />
