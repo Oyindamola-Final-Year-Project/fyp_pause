@@ -1,106 +1,229 @@
 .box {
-    width: 405px;
-    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     background-color: #fff;
-    height: 205px;
-    z-index: 0;
+    width: 405px;
+    height: 297px;
 }
 .fullName {
-    width: 375px;
     position: absolute;
-    margin: 0 !important;
     top: 28px;
     left: 126px;
     line-height: 24px;
     font-weight: 600;
     display: flex;
     align-items: center;
+    width: 121px;
     height: 35px;
-    flex-shrink: 0;
-    z-index: 1;
+}
+.email {
+    position: absolute;
+    top: 107px;
+    left: 30px;
+    line-height: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 246px;
+    height: 35px;
+}
+.hospital {
+    position: absolute;
+    top: 142px;
+    left: 30px;
+    line-height: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 246px;
+    height: 35px;
+}
+.phoneno {
+    position: absolute;
+    top: 177px;
+    left: 30px;
+    line-height: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 246px;
+    height: 35px;
+}
+.profileIcon {
+    position: absolute;
+    top: 26px;
+    left: 30px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #0ea900, #00eccf);
+    width: 75px;
+    height: 75px;
+}
+.specialty {
+    position: absolute;
+    top: 222px;
+    left: 30px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    width: 345px;
 }
 .city {
-    width: 375px;
     position: absolute;
-    margin: 0 !important;
+    top: 63px;
+    left: 126px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93px;
+    height: 35px;
+}
+.state {
+    position: absolute;
+    top: 63px;
+    left: 247px;
+    line-height: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 105px;
+    height: 35px;
+}
+.divider {
+    position: absolute;
+    top: 72.5px;
+    left: 225.5px;
+    border-right: 1px solid #192839;
+    box-sizing: border-box;
+    width: 1px;
+    height: 15px;
+}
+.card {
+    position: absolute;
+    width: 28.06%;
+    top: calc(50% - 298px);
+    right: 65.14%;
+    left: 6.81%;
+    height: 297px;
+}
+.fullName1 {
+    position: absolute;
+    top: 28px;
+    left: 126px;
+    line-height: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 136px;
+    height: 35px;
+}
+.city1 {
+    position: absolute;
     top: 63px;
     left: 126px;
     line-height: 24px;
     font-weight: 500;
     display: flex;
     align-items: center;
+    width: 93px;
     height: 35px;
-    flex-shrink: 0;
-    z-index: 2;
 }
-.state {
-    width: 375px;
+.email1 {
     position: absolute;
-    margin: 0 !important;
-    top: 63px;
-    left: 194px;
+    top: 107px;
+    left: 30px;
     line-height: 24px;
     font-weight: 500;
     display: flex;
     align-items: center;
+    width: 272px;
     height: 35px;
-    flex-shrink: 0;
-    z-index: 3;
 }
-.profileIcon {
-    width: 75px;
+.profileIcon1 {
     position: absolute;
-    margin: 0 !important;
     top: 26px;
     left: 30px;
     border-radius: 50%;
-    background: linear-gradient(180deg, #ff007a, #855aff);
+    background: linear-gradient(180deg, #f01d00, #fff500);
+    width: 75px;
     height: 75px;
-    z-index: 4;
 }
-.specialty {
-    width: 345px;
+.specialty1 {
     position: absolute;
-    margin: 0 !important;
-    top: 134px;
+    top: 212px;
     left: 30px;
     line-height: 24px;
     display: flex;
     align-items: center;
-    height: 35px;
-    flex-shrink: 0;
-    z-index: 5;
+    width: 345px;
 }
-.divider {
-    width: 1px;
+.card1 {
     position: absolute;
-    margin: 0 !important;
-    top: 72.5px;
-    left: 175.5px;
-    background-color: #192839;
+    width: 28.06%;
+    top: calc(50% - 298px);
+    right: 35.97%;
+    left: 35.97%;
+    height: 297px;
+}
+.profileIcon2 {
+    position: absolute;
+    top: 26px;
+    left: 30px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #ff007a, #855aff);
+    width: 75px;
+    height: 75px;
+}
+.card2 {
+    position: absolute;
+    width: 28.06%;
+    top: calc(50% - 298px);
+    right: 6.81%;
+    left: 65.14%;
+    height: 297px;
+}
+.city2 {
+    position: absolute;
+    top: 181px;
+    left: 1064px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93px;
+    height: 35px;
+}
+.state2 {
+    position: absolute;
+    top: 181px;
+    left: 1185px;
+    line-height: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 105px;
+    height: 35px;
+}
+.divider2 {
+    position: absolute;
+    top: 190.5px;
+    left: 1163.5px;
     border-right: 1px solid #192839;
     box-sizing: border-box;
+    width: 1px;
     height: 15px;
-    z-index: 6;
-}
-.card {
-    position: absolute;
-    top: 118px;
-    left: 98px;
-    width: 404px;
-    height: 205px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 10px;
 }
 .desktop1 {
     width: 100%;
     position: relative;
-    background-color: #fff;
+    background-color: #f5f5f5;
     height: 832px;
     overflow: hidden;
     text-align: left;

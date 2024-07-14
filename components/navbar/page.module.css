@@ -6,15 +6,15 @@
     box-sizing: border-box;
     width: 1440px;
     height: 64px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .pauLogo1Icon {
     position: absolute;
-    top: 6px;
+    top: 0px;
     left: 664px;
     width: 113px;
-    height: 52.8px;
+    height: 64px;
     object-fit: cover;
     }
     

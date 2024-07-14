@@ -1,0 +1,181 @@
+.validateChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #015e16;
+    width: 185px;
+    height: 43px;
+}
+.applicationSuccessful {
+    position: absolute;
+    top: 12px;
+    left: 19px;
+    font-weight: 600;
+}
+.validate {
+    position: absolute;
+    top: 702px;
+    left: 627px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 185px;
+    height: 43px;
+}
+.fillDetails {
+    position: relative;
+}
+.placehoder {
+    align-self: stretch;
+    position: relative;
+}
+.inputContent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.top {
+    align-self: stretch;
+    border-radius: 6.65px;
+    border: 0.8px solid #cfd3d4;
+    box-sizing: border-box;
+    height: 43.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6.6px 13.3px;
+}
+.input {
+    width: 311.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.bottom {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 3.3px;
+}
+.inputContent4 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.input4 {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 6.65px;
+    border: 0.8px solid #cfd3d4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6.6px 13.3px;
+}
+.phone {
+    align-self: stretch;
+    height: 43.2px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 13.29px;
+    color: #424242;
+}
+.bottomParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6.6px;
+}
+.phoneNumberAmount {
+    width: 311.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 9.97px;
+    color: #2a2b2b;
+}
+.innerformcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 19.9px;
+}
+.label {
+    flex: 1;
+    position: relative;
+}
+.btn {
+    width: 311.6px;
+    border-radius: 9.97px;
+    background-color: #5570f1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 14.1px 13.3px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16.62px;
+    color: #fff;
+}
+.inputcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 36.6px;
+    font-size: 13.29px;
+    color: #363636;
+}
+.innercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 33.2px;
+}
+.formcontainer {
+    position: absolute;
+    top: 157px;
+    left: 528px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16.62px;
+    background-color: #ffffff;
+    border: 0.8px solid #dde2e5;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30.7px 35.7px;
+    text-align: left;
+    font-size: 19.94px;
+    color: #2b2f32;
+}
+.apply {
+    width: 100%;
+    position: relative;
+    background-color: #f5f5f5;
+    height: 832px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 13.29px;
+    color: #f5f5f5;
+    font-family: Inter;
+}
+
