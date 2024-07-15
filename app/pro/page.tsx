@@ -4,13 +4,13 @@ import type { NextPage } from "next";
 import Navbar from "@/components/navbar/page";
 import styles from "./page.module.css";
 import Link from "next/link";
-import { useCallback } from "react";
 import Image from "next/image";
+import { useState } from "react";
+
+
 
 const WelcomePro: NextPage = () => {
-  const onToggleOnClick = useCallback(() => {
-    // Add your code here
-  }, []);
+
   return (
     <div className={styles.welcomePro}>
       <Navbar />
