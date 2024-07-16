@@ -1,0 +1,24 @@
+.addressBookIcon {
+    position: absolute;
+    top: 52px;
+    left: 11px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.commentDotsIcon {
+    position: absolute;
+    top: 16px;
+    left: 11px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.sidenavclosed {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 832px;
+    overflow: hidden;
+}
+
